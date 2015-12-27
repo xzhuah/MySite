@@ -145,9 +145,9 @@ nav a:hover
 p{
 	text-align:center;
 }
-a:link { text-decoration: none;color:#FEAD38}
+section a:link { text-decoration: none;color:#FEAD38}
 
-a:hover { text-decoration:none;color: red}
+section a:hover { text-decoration:none;color: red}
 
 form{
 	text-align:center;
