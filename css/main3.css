@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../image/greenBack.png);
+}
+#logo{
+	background:url(../image/summerBack.png) no-repeat;
+	 width: 900px;
+	 height:300px;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-bottom: 0;	
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;			
+}
+main
+{
+    clear: left;
+	background:#F8F8F8;
+    width: 900px;	
+    margin: 0 auto;
+    border-bottom-left-radius: 0;
+}
+#hnm
+{
+    width: 900px;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-bottom: 0;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0 4px 10px .5px #575757;
+            box-shadow: 0 4px 10px .5px #575757;
+}
+nav{
+	/*padding-top:268px;*/
+	padding-top:272px;
+}
+nav ul{
+	  margin: 0;
+    padding: 0;
+    list-style-type: none;
+	
+}
+nav li
+{
+    float: left;
+    width: 225px;
+	
+}
+nav a
+{
+    width: 145px;
+    border-radius: 3px;
+    display: block;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+			
+	
+	font-style:italic;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#11772D ;	
+	color:#FDF26F;
+}
+nav a:hover 
+{
+	color:#FE0000;
+	background-color: #00BB27;	
+	
+	font-style:normal;
+	
+    border-radius: 21px;
+    width: 166px;
+	
+}
+.designer{
+	visibility:hidden;
+}
+.designer2{
+	margin-left:100px;
+	margin-right:100px;
+}
+.designer_info{
+	margin-left:60px;
+	margin-right:60px;
+	margin-bottom:50px;
+	text-align:center;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.img-circle{
+	border-radius:50%;
+	margin-left:300px;
+	
+	
+}
+.detail_list{
+	font-family:Verdana, Geneva, sans-serif;
+}
+.segment{
+	padding:10px 20px 10px 20px;
+	font-family:Geneva, sans-serif;
+	/*color:#664082;*/
+	color:#75DB1B;
+	
+}
+.little_title{
+	text-align:center;
+	color:#A29A23;
+	
+}
+.profile{
+	text-align:center;
+}
+.seg_rule{
+
+}
+ul{
+	list-style:circle;
+}
+.skill_list li{
+	padding-bottom:30px;
+	
+}
+dd a{
+	font-style:normal;
+	font-variant:normall;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:#3C6;
+	padding-bottom:20px;
+}
+dl{
+	list-style:none;
+}
+dl dt{
+	padding-left:auto;
+	padding-right:auto;
+	padding-bottom:30px;
+}
+dl dd{
+	padding-left:auto;
+	padding-right:auto;
+	padding-bottom:20px;
+}
+
+a:hover { text-decoration:none;color: red}
+
+
+

@@ -1,0 +1,31 @@
+.popup{
+	 position:relative;
+	 cursor:pointer;
+	
+}							
+.popup .popupdetail{ 
+	display:none; 
+	position:absolute;
+	z-index:100;
+  
+  
+ 
+ 
+ 
+}
+/*
+.popupdetail{ 
+   transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;	
+}*/
+.popup:hover .popupdetail{
+	 display:block;
+}   
+.illustrate_image{
+	 border-radius:21px;
+	 -webkit-box-shadow: 0 4px 10px .5px #575757;
+    box-shadow: 0 4px 10px .5px #575757;
+	
+}
+

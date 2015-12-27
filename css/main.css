@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../image/back.jpg);
+}
+
+#logo{
+	background:url(../image/hkustBack.jpg) no-repeat;
+	 width: 900px;
+	 height:300px;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-bottom: 0;	
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;			
+}
+main
+{
+    clear: left;
+	background:#F8F8F8;
+    width: 900px;	
+    margin: 0 auto;
+    border-bottom-left-radius: 0;
+}
+#hnm
+{
+    width: 900px;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-bottom: 0;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0 4px 10px .5px #575757;
+            box-shadow: 0 4px 10px .5px #575757;
+}
+.navbar .nav>li>a:hover, .nav>li>a:focus, .nav>li.active>a {
+  color: #18bc9c;
+  background-color: transparent;
+}
+nav.mynav{
+	/*padding-top:268px;*/
+	padding-top:272px;
+}
+nav.mynav ul{
+	  margin: 0;
+    padding: 0;
+    list-style-type: none;
+	
+}
+nav.mynav li
+{
+    float: left;
+    width: 225px;
+	
+}
+nav.mynav a
+{
+    width: 145px;
+    border-radius: 3px;
+    display: block;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+			
+	
+	font-style:italic;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#93B4DA ;	
+	color:#000;
+}
+nav.mynav a:hover 
+{
+	color:#FC0;
+	background-color: #A32C26;	
+	
+	font-style:normal;
+	
+    border-radius: 21px;
+    width: 166px;
+	
+}
+.designer{
+	visibility:hidden;
+}
+.designer2{
+	margin-left:100px;
+	margin-right:100px;
+}
+.designer_info{
+	margin-left:60px;
+	margin-right:60px;
+	margin-bottom:50px;
+	text-align:center;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.img-circle{
+	border-radius:50%;
+	margin-left:300px;
+	
+	
+}
+.detail_list{
+	font-family:Verdana, Geneva, sans-serif;
+}
+.segment{
+	padding:10px 20px 10px 20px;
+	font-family:Geneva, sans-serif;
+	/*color:#664082;*/
+	color:#005B49;
+	
+}
+.little_title{
+	text-align:center;
+	color:#35C1ED;
+	
+}
+.segment div{
+	text-align:center;
+}
+.profile{
+	text-align:center;
+}
+.seg_rule{
+
+}
+.hobby_box{
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 36px;
+    width: 540px;
+	height: 240px;
+    background:url(../image/back.jpg);
+    padding: 8px 0;
+    border-radius: 3px;
+    border: 2px #bbb solid;
+	
+}
+
+ .tooltip1 {
+  
+    width: 540px;
+    height: 140px;
+    position: relative;
+    bottom: 0px;
+    left: -1100px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+	color:#C09;
+}
+
+ 
+.hobby_box:hover .tooltip1
+{    left: 0px;
+background:url(../image/ping_pongBar.png) repeat-x;
+}
+
+
+ .tooltip {
+  
+    width: 540px;
+    height: 140px;
+    position: relative;
+    bottom: 0px;
+    left: -1100px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+	color:#C09;
+}
+
+ 
+.hobby_box:hover .tooltip
+{    left: 0px;
+
+}
+.cover ,.cover2{
+	 z-index: 1;
+    display: block;
+    position: absolute;
+
+    background: #41BCD8;
+    opacity: 0;
+    width: 540px;
+    height: 140px;
+    -webkit-transition: all .4s;
+       -moz-transition: all .4s;
+            transition: all .4s;
+	text-align: center;
+  
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: #e73319;
+}
+
+
+.cover:hover{
+	opacity: 0.55;
+}
+.server{
+
+}
+.cover2:hover{
+	opacity: 0.95;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 5px 20px 11px 10px #caefab;
+	-webkit-box-shadow:inset 5px 20px 11px 10px #caefab;
+	box-shadow:inset 5px 20px 11px 10px #caefab;
+	background-color:transparent;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:3px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #aade7c;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.profile_list{
+	padding-bottom:100px;
+}
+
+
