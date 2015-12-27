@@ -123,9 +123,20 @@ nav.mynav a:hover
 	
 }
 .little_title{
+	
+	border-radius:50px;
 	text-align:center;
 	color:#35C1ED;
+	-o-transition: background-color .5s linear;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    transition:  background-color .5s linear;
 	
+	
+}
+.little_title:hover{
+	background:#39F;
+	color:#48887B;
 }
 .segment div{
 	text-align:center;
@@ -239,8 +250,14 @@ background:url(../image/ping_pongBar.png) repeat-x;
 	padding:3px 24px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #aade7c;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
 }
 .myButton:hover {
+	width:200px;
+	border-radius:50px;
 	background-color:transparent;
 }
 .myButton:active {

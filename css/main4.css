@@ -120,6 +120,15 @@ nav a:hover
 .little_title{
 	text-align:center;
 	color:#ED9939;
+	border-radius:50px;
+	-o-transition: background-color .5s linear;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    transition:  background-color .5s linear;
+	
+}
+.little_title:hover{
+	background:#FBCA66;
 	
 }
 .profile{

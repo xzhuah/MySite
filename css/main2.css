@@ -120,6 +120,16 @@ nav a:hover
 .little_title{
 	text-align:center;
 	color:#DD9573;
+	border-radius:50px;
+	-o-transition: background-color .5s linear;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    transition:  background-color .5s linear;
+	
+	
+}
+.little_title:hover{
+	background:#F09ECB;
 	
 }
 .profile{
@@ -144,9 +154,17 @@ nav a:hover
 	padding:2px 23px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #b23e35;
+	
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
 }
 .myButton:hover {
-	background-color:#eb675e;
+	
+
+	border-radius:0px;
+	
 }
 .myButton:active {
 	position:relative;
@@ -173,6 +191,32 @@ nav a:hover
 	height:50px;
 	position:relative;
 	overflow:hidden;
+}
+h4{
+	position: relative;
+    left: -20px;
+    font-weight: normal;
+
+    width: 240px;
+    padding: 5px 0 5px 25px;
+    margin-right: 5px;
+	 margin-bottom: 10px;
+    color: #fdefed;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #F05133;
+    -webkit-box-shadow: 0 2px 2px #626262;
+            box-shadow: 0 2px 2px #626262;
+			
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+h4:hover{
+	width: 700px;
+	left:-25px;
+	border-radius:50px;
 }
 
 

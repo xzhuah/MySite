@@ -120,6 +120,15 @@ nav a:hover
 .little_title{
 	text-align:center;
 	color:#A29A23;
+	border-radius:50px;
+	-o-transition: background-color .5s linear;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    transition:  background-color .5s linear;
+	
+}
+.little_title:hover{
+	background:#9CFF88;
 	
 }
 .profile{
@@ -147,9 +156,32 @@ dl{
 	list-style:none;
 }
 dl dt{
-	padding-left:auto;
-	padding-right:auto;
-	padding-bottom:30px;
+	
+	position: relative;
+    left: -20px;
+    font-weight: normal;
+
+    width: 240px;
+    padding: 5px 0 5px 25px;
+    margin-right: 5px;
+	 margin-bottom: 10px;
+    color: #fdefed;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #05E177;
+    -webkit-box-shadow: 0 2px 2px #626262;
+            box-shadow: 0 2px 2px #626262;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+			
+	
+}
+dl dt:hover{
+	width: 700px;
+	left:-25px;
+	border-radius:50px;
 }
 dl dd{
 	padding-left:auto;
